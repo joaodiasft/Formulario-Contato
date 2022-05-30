@@ -1,0 +1,21 @@
+Box-shadow
+https://html-css-js.com/css/generator/box-shadow/
+
+css gradient
+https://cssgradient.io/
+
+html colors
+https://htmlcolorcodes.com/
+
+
+fonts
+https://fonts.google.com/
+
+illustrativ
+https://undraw.co/illustrations
+
+formulario
+https://formsubmit.co/
+
+hospedagem grat
+https://app.netlify.com/drop

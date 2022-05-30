@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulario para contato</title>
+</head>
+
+<body>
+    <div class="box-size">
+        <form action="https://formsubmit.co/worksfacul1@gmail.com" method="POST">
+            <fieldset>
+                <legend><b>Formulario Redaçao Nota 1000</b></legend><br>
+                <div class="inputBox">
+                    <input type="text" name="name" id="name" class="inputUser" required>
+                    <label for="name" class="labelin">Nome Completo</label>
+                </div><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelin">E-mail</label>
+                </div><br>
+                <div class="sex">
+                    <p>Sexo:</p><br>
+                    <input type="radio" name="iputuser" id="female">
+                    <label for="female">Feminino</label>
+                    <input type="radio" name="iputuser" id="male">
+                    <label for="male">Masculino</label>
+                    <input type="radio" name="iputuser" id="none">
+                    <label for="none">Prefiro nao dizer</label><br>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="date">Data de nascimento: </label>
+                    <input type="date" name="date" id="date" required>
+                </div><br>
+                <div class="inputBox">
+                    <input type="text" name="cid" id="cid" class="inputUser" required>
+                    <label for="cid" class="labelin">Cidade</label>
+                </div><br>
+                <div class="inputBox">
+                    <input type="text" name="estad" id="estad" class="inputUser" required>
+                    <label for="estad" class="labelin">Estado</label>
+                </div><br>
+                <div class="inputBox">
+                    <input type="text" name="ende" id="ende" class="inputUser">
+                    <label for="ende" class="labelin">Enderenço(opcional)</label>
+                </div><br>
+                <p>Nivel de Conhecimento:</p><br>
+                <input type="radio" name="iputConh" id="basico">
+                <label for="basico">Basico</label>
+                <input type="radio" name="iputConh" id="interme">
+                <label for="interme">Intermediario</label>
+                <input type="radio" name="iputConh" id="pro">
+                <label for="pro">Avançado</label><br>
+                <br>
+                <label for="message">Aqui Sua Mensagem:</label>
+                <div class="inputBox">
+                    <textarea class="area" name="message" id="message" cols="30" rows="10"
+                        placeholder="Digite sua mensagem ...." required></textarea>
+                </div><br>
+
+
+                <button class="btn-subs" type="submit">Enviar</button>
+            </fieldset>
+            <input type="hidden" name="_next" value="/Formulario-paracontato/tranks.html">
+        </form>
+
+    </div>
+</body>
+
+</html>
